@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <met charset="utf-8"></met>
+    <title>Tip korisnika</title>
+    <link rel='stylesheet' href='/stylesheets/choose.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/checkPassword.js"></script>
+
+</head>
+
+<body>
+<div class = "title"><h1> Izaberite tip korisnika </h1></div>
+<div  class="container" >
+    <div class ="centerContainer">
+        <div class="formBox">
+            <form method="post" action="/users/izaberi">
+                <select class="selectpicker col-md-4" title="Izaberite tip korisnika" name="tipKorisnika">
+                    <option id="opt1" name="profesor">Profesor</option>
+                    <option id="opt2" name="student">Student</option>
+                </select>
+                <label><input type="submit" value="Registruj se"/></label>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

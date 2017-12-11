@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <met charset="utf-8"></met>
+    <title>Login form</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+<div class = "title"><h1> PRIJAVI SE </h1></div>
+<div  class="container" >
+    <div class = "left"></div>
+    <div class = "right">
+        <div class="formBox">
+            <form method="post" action="/users/login">
+                <p>Username</p>
+                <input type="text" name="username" placeholder="Unesi username">
+                <p>Password</p>
+                <input type="Password" name="password" placeholder="*****">
+                <input type="submit" name="login" value="Prijava">
+                <a href="#">Zaboravljen password</a>
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
